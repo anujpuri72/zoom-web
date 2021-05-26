@@ -1,4 +1,4 @@
-import "./Zoom.css";
+// import "./Zoom.css";
 import { ZoomMtg } from "@zoomus/websdk";
 import { useEffect } from "react";
 
@@ -23,13 +23,13 @@ function generateSignature(apiKey, apiSecret, meetingNumber, role) {
   });
 }
 
-var apiKey = "MVfVOSCEQwGZNKFD2slZ-w";
-var apiSecret = "dXNpRJHw9Oeme5tqiNEvpBsJ8EfOh0UDBB25";
-var meetingNumber = 88159642391;
+var apiKey = "DJ9-y9siQoGx4k6U7a3MVg";
+var apiSecret = "ZjB8BQinEQJRq7ZfZbUPlARoIjAV7WtSAvVA";
+var meetingNumber = 2299140526;
 var leaveUrl = "http://localhost:3000"; // our redirect url
-var userName = "WebSDK";
-var userEmail = "test@gmail.com";
-var passWord = "4ZFu37";
+var userName = "anujpuri72";
+var userEmail = "anujpuri72@gmail.com";
+var passWord = "Wrp81p";
 
 var signature = "";
 generateSignature(apiKey, apiSecret, meetingNumber, 0).then((res) => {
@@ -78,7 +78,7 @@ const Zoom = () => {
     });
   };
 
-  return <div className="App">Zoom</div>;
+  return <div className="App">ass</div>;
 };
 
 export default Zoom;
